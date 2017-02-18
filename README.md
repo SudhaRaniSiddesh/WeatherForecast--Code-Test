@@ -7,7 +7,7 @@ To run this project you should have Java 8 and Apache tomcat , maven installed.
 
 execute mvn clean install
 
-And then deploy it on your Tomcat server
+And then deploy generated war file into webapp folder of server and restart it.
 
 Run the below url to input the weatherdata:
 http://localhost:8080/WeatherForecast-0.0.1-SNAPSHOT/homepage.html
