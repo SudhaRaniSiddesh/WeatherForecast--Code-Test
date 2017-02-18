@@ -38,14 +38,14 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.3</version>
         
-        <configuration>
+   <!--      <configuration>
                 <fork>true</fork>
                 <executable>C:/Program Files/Java/jdk1.8.0_73/bin/javac.exe</executable>
-            </configuration>
-<!--         <configuration>
+            </configuration>  -->
+        <configuration>
           <source>1.8</source>
           <target>1.8</target>
-        </configuration> -->
+        </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
