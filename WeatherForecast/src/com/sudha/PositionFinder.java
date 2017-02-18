@@ -183,7 +183,7 @@ public static String getTemperature(String lat, String lon, String ele)
     		condition="snow";
     	}
     	//if humidity is more then chances of rain
-    	else if((temperature < 5.0)&& humidity > 50.0 ){
+    	else if((temperature < 5.0)&& humidity > 25.0 ){
     		
     		condition="rainy";
     	}
